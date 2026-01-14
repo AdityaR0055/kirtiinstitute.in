@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>किर्ती कॉम्प्युटर टायपिंग & शॉर्टहँड इन्स्टिट्यूट, उदगीर</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #004aad;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #004aad;
+      margin-bottom: 20px;
+    }
+
+    .course-gallery,
+    .lab-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .course-gallery img,
+    .lab-gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+      object-fit: cover;
+    }
+
+    .course-gallery img:hover,
+    .lab-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input,
+    textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #004aad;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background: #00337a;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1da851;
+    }
+
+    footer {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    .social a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .social i {
+      margin-right: 6px;
+    }
+
+    /* Optional: colorful icons */
+    .social a.facebook i { color: #1877F2; }
+    .social a.instagram i { color: #E4405F; }
+    .social a.maps i { color: #34A853; }
+    .social a.whatsapp i { color: #25D366; }
+
+    /* Map styling */
+    .map-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    iframe {
+      border: 0;
+      border-radius: 10px;
+      width: 100%;
+      height: 350px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="logo.jpg.png" alt="Institute Logo">
+    <h1>किर्ती कॉम्प्युटर टायपिंग & शॉर्टहँड इन्स्टिट्यूट, उदगीर</h1>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>आमच्याबद्दल</h2>
+    <p>
+      किर्ती कॉम्प्युटर टायपिंग अँड शॉर्टहँड इन्स्टिट्यूट ही 1988 पासून विद्यार्थ्यांसाठी विश्वासार्ह आणि दर्जेदार प्रशिक्षण देणारी संस्था आहे.
+      गेल्या अनेक दशकांपासून आम्ही विद्यार्थ्यांना टायपिंग, शॉर्टहँड आणि कॉम्प्युटरचे आवश्यक कौशल्ये शिकवत आहोत.
+      आमच्या संस्थेची स्थापना विद्यार्थ्यांना शासकीय व खासगी नोकऱ्यांसाठी आवश्यक असलेली टायपिंग आणि शॉर्टहँड कौशल्ये मिळावीत
+      या उद्देशाने करण्यात आली.
+    </p>
+    <p>
+      आम्ही इंग्रजी कॉम्प्युटर टायपिंग 30, 40, 50 व मराठी कॉम्प्युटर टायपिंग 30, 40 तसेच हिंदी कॉम्प्युटर टायपिंग 30, 40
+      तसेच इंग्रजी शॉर्टहँड 60, 80, 100, 120 व मराठी शॉर्टहँड 60, 80, 100, 120 तसेच कॉम्प्युटरचे मूलभूत प्रशिक्षण देतो.
+    </p>
+    <p>
+      नियमित सराव, स्पीड टेस्ट, परीक्षाभिमुख तयारी आणि वैयक्तिक मार्गदर्शन ही आमच्या प्रशिक्षणाची वैशिष्ट्ये आहेत.
+      अनुभवी शिक्षक आणि वैयक्तिक लक्षामुळे विद्यार्थ्यांचा आत्मविश्वास वाढतो.
+    </p>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <h2>आमचे कोर्सेस</h2>
+    <div class="course-gallery">
+      <div>
+        <img src="eng 30.jpg.jpg" alt="Typing 30">
+        <p>Typing Course - 30 WPM</p>
+      </div>
+
+      <div>
+        <img src="english 40.jpeg.jpg" alt="Typing 40">
+        <p>Typing Course - 40 WPM</p>
+      </div>
+
+      <div>
+        <img src="marathi steno.jpeg.jpeg" alt="Marathi Shorthand">
+        <p>Marathi Shorthand - 60 ते 120</p>
+      </div>
+
+      <div>
+        <img src="book4.jpg.png" alt="English Shorthand">
+        <p>English Shorthand - 60 to 120</p>
+      </div>
+      <div><img src="tally.png" alt="Tally Prime"></div>
+    </div>
+  </section>
+
+  <!-- LAB SECTION -->
+  <section id="lab">
+    <h2>आमचा कॉम्प्युटर लॅब</h2>
+    <div class="lab-gallery">
+      <div><img src="lab1.jpeg.jpeg" alt="Lab Image 1"></div>
+      <div><img src="lab2.jpeg.jpeg" alt="Lab Image 2"></div>
+      <div><img src="lab3.jpg.png" alt="Lab Image 3"></div>
+    </div>
+  </section>
+
+  <!-- COURSE ENQUIRY FORM -->
+  <section id="enquiry">
+    <h2>कोर्स चौकशी फॉर्म</h2>
+    <form>
+      <input type="text" placeholder="नाव" required>
+      <input type="email" placeholder="ईमेल">
+      <input type="tel" placeholder="मोबाइल नंबर" required>
+      <input type="text" placeholder="कोर्स">
+      <textarea rows="4" placeholder="संदेश"></textarea>
+      <button type="submit">सबमिट करा</button>
+    </form>
+
+    <!-- WhatsApp Enquiry Button -->
+    <div style="text-align: center;">
+      <a class="whatsapp-btn" href="https://wa.me/919422472215?text=नमस्कार!%20मला%20कोर्सची%20माहिती%20हवी%20आहे." target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp वर चौकशी करा
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>संपर्क</h2>
+    <p><strong>पत्ता:</strong> शिवनेरी निवास, आंबेडकर चौक, रेल्वे स्टेशन रोड, उदगीर, महाराष्ट्र 413517</p>
+    <p><strong>फोन / WhatsApp:</strong> 9422472215</p>
+
+    <div class="social">
+      <a class="facebook" href="https://www.facebook.com/p/Kirti-Computer-Typing-Shorthand-Institute-100054474970846/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+      <a class="instagram" href="https://www.instagram.com/kirticomputertyping/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> |
+      <a class="whatsapp" href="https://wa.me/919422472215" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
+
+    <!-- Google Map Embed -->
+<div class="map-container" style="text-align:center; margin-top:20px;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3791.220276695997!2d77.1118428!3d18.3929095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfab32bd3e089f%3A0x26fa0ff3da67dde6!2sShivneri%20Niwas%2C%20Ambedkar%20Chowk%2C%20Railway%20Station%20Rd%2C%20Venkatesh%20Nagar%2C%20Udgir%2C%20Maharashtra%20413517!5e0!3m2!1sen!2sin!4v1736876400000!5m2!1sen!2sin"
+    width="100%"
+    height="400"
+    style="border:0; border-radius:10px;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+    
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 किर्ती कॉम्प्युटर टायपिंग & शॉर्टहँड इन्स्टिट्यूट, उदगीर. सर्व हक्क राखीव.</p>
+  </footer>
+
+</body>
+</html>
